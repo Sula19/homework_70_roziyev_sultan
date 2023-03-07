@@ -3,7 +3,8 @@
     font-style: italic;
 }
 body {
-    background: #4f4f4f;
+    background: url("../img/31.jpg") no-repeat fixed center;
+    background-size: cover;
 }
 .card {
     background: #1b1b1b;
