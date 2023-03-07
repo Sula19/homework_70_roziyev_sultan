@@ -8,9 +8,9 @@
                     <div class="card-body">
                         <h5 class="card-title">{{ task.summary }}</h5>
                         <p class="card-text">{{ task.description }}</p>
-                        <a href="{% url 'detail' task.pk %}" class="btn btn-primary">More</a>
-                        <a href="{% url 'update' task.pk %}" class="btn btn-primary">Update</a>
-                        <a href="{% url 'delete' task.pk %}" class="btn btn-primary">Delete</a>
+                        <a href="{% url 'detail' task.pk %}" class="btn btn-light">More</a>
+                        <a href="{% url 'update' task.pk %}" class="btn btn-light">Update</a>
+                        <a href="{% url 'delete' task.pk %}" class="btn btn-light">Delete</a>
                     </div>
                 </div>
             </div>
