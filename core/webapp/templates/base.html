@@ -1,0 +1,35 @@
+{% load static %}
+{% load django_bootstrap5 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+{% bootstrap_messages %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>{% block title %}Title{% endblock %}</title>
+</head>
+<body>
+<nav class="navbar">
+    <div class="container">
+        <a class="navbar-brand" href="/" style="color: white">Tasks</a>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="{% url 'home' %}">
+                    <button type="button" class="btn btn-light">Tasks</button>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="{% url 'create' %}">
+                    <button type="button" class="btn btn-light">Add Task</button>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    {% block content %}{% endblock %}
+</div>
+</body>
+</html>
