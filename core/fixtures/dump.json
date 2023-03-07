@@ -1,0 +1,287 @@
+[
+{
+   "model": "webapp.tasks",
+   "pk": 38,
+   "fields": {
+      "summary": "Task-1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, distinctio!",
+      "status": 7,
+      "created": "2023-03-03T16:58:08.993Z",
+      "updated": "2023-03-03T16:58:20.633Z",
+      "type": [
+         4,
+         6,
+         5
+      ]
+   }
+},
+{
+   "model": "webapp.tasks",
+   "pk": 39,
+   "fields": {
+      "summary": "Task-2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, distinctio!",
+      "status": 8,
+      "created": "2023-03-03T16:58:10.724Z",
+      "updated": "2023-03-06T14:28:28.755Z",
+      "type": [
+         4
+      ]
+   }
+},
+{
+   "model": "webapp.tasks",
+   "pk": 40,
+   "fields": {
+      "summary": "Task-3",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, distinctio!",
+      "status": 9,
+      "created": "2023-03-03T16:58:12.182Z",
+      "updated": "2023-03-03T16:58:24.301Z",
+      "type": [
+         5,
+         6
+      ]
+   }
+},
+{
+   "model": "webapp.tasks",
+   "pk": 41,
+   "fields": {
+      "summary": "Task-4",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, distinctio!",
+      "status": 7,
+      "created": "2023-03-03T16:58:14.633Z",
+      "updated": "2023-03-03T16:58:25.884Z",
+      "type": [
+         6,
+         4
+      ]
+   }
+},
+{
+   "model": "webapp.tasks",
+   "pk": 42,
+   "fields": {
+      "summary": "Task-5",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, distinctio!",
+      "status": 8,
+      "created": "2023-03-03T16:58:18.563Z",
+      "updated": "2023-03-03T16:58:27.409Z",
+      "type": [
+         5
+      ]
+   }
+},
+{
+   "model": "webapp.tasks",
+   "pk": 45,
+   "fields": {
+      "summary": "Task-6",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, distinctio!",
+      "status": 9,
+      "created": "2023-03-06T20:36:18.005Z",
+      "updated": "2023-03-06T20:36:20.394Z",
+      "type": []
+   }
+},
+{
+   "model": "webapp.tasks",
+   "pk": 46,
+   "fields": {
+      "summary": "Task-7",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, distinctio!",
+      "status": 9,
+      "created": "2023-03-06T20:37:48.366Z",
+      "updated": "2023-03-06T20:38:00.734Z",
+      "type": []
+   }
+},
+{
+   "model": "webapp.tasks",
+   "pk": 47,
+   "fields": {
+      "summary": "Task-8",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, distinctio!",
+      "status": 8,
+      "created": "2023-03-06T20:37:45.920Z",
+      "updated": "2020-10-30T20:38:02.234Z",
+      "type": []
+   }
+},
+{
+   "model": "webapp.tasks",
+   "pk": 48,
+   "fields": {
+      "summary": "Task-9",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, distinctio!",
+      "status": 7,
+      "created": "2023-03-06T20:37:49.921Z",
+      "updated": "2023-03-06T20:38:03.588Z",
+      "type": []
+   }
+},
+{
+   "model": "webapp.tasks",
+   "pk": 49,
+   "fields": {
+      "summary": "Task-10",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, distinctio!",
+      "status": 7,
+      "created": "2023-03-06T20:37:51.330Z",
+      "updated": "2021-03-06T20:38:05.242Z",
+      "type": []
+   }
+},
+{
+   "model": "webapp.tasks",
+   "pk": 50,
+   "fields": {
+      "summary": "Task-11",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, distinctio!",
+      "status": 8,
+      "created": "2023-03-06T20:37:52.694Z",
+      "updated": "2023-03-06T20:38:06.775Z",
+      "type": [
+         4
+      ]
+   }
+},
+{
+   "model": "webapp.tasks",
+   "pk": 51,
+   "fields": {
+      "summary": "Task-12",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, distinctio!",
+      "status": 9,
+      "created": "2023-03-06T20:37:54.174Z",
+      "updated": "2023-10-06T20:38:08.234Z",
+      "type": [
+         4,
+         5
+      ]
+   }
+},
+{
+   "model": "webapp.tasks",
+   "pk": 52,
+   "fields": {
+      "summary": "Task-13",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, distinctio!",
+      "status": 8,
+      "created": "2023-03-06T20:37:55.686Z",
+      "updated": "2023-03-06T20:38:09.663Z",
+      "type": [
+         5,
+         4
+      ]
+   }
+},
+{
+   "model": "webapp.tasks",
+   "pk": 53,
+   "fields": {
+      "summary": "Task-14",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, distinctio!",
+      "status": 8,
+      "created": "2023-03-06T20:37:57.305Z",
+      "updated": "2023-06-10T20:38:13.360Z",
+      "type": [
+         5
+      ]
+   }
+},
+{
+   "model": "webapp.tasks",
+   "pk": 54,
+   "fields": {
+      "summary": "Task-15",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, distinctio!",
+      "status": 7,
+      "created": "2023-03-06T20:37:58.755Z",
+      "updated": "2022-03-06T20:38:14.732Z",
+      "type": [
+         6,
+         4
+      ]
+   }
+},
+{
+   "model": "webapp.status",
+   "pk": 7,
+   "fields": {
+      "name": "New"
+   }
+},
+{
+   "model": "webapp.status",
+   "pk": 8,
+   "fields": {
+      "name": "In Progress"
+   }
+},
+{
+   "model": "webapp.status",
+   "pk": 9,
+   "fields": {
+      "name": "Done"
+   }
+},
+{
+   "model": "webapp.type",
+   "pk": 4,
+   "fields": {
+      "name": "Task"
+   }
+},
+{
+   "model": "webapp.type",
+   "pk": 5,
+   "fields": {
+      "name": "Bug"
+   }
+},
+{
+   "model": "webapp.type",
+   "pk": 6,
+   "fields": {
+      "name": "Enhancement"
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 1,
+   "fields": {
+      "password": "pbkdf2_sha256$390000$ptulzKhcSE1gYiNDlsH1lV$ls7elHCtcO47gSQLIEemdiM+58Q+6O8YDUmDvkxrPo4=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-03-01T10:10:20.373Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 2,
+   "fields": {
+      "password": "pbkdf2_sha256$390000$pXXPInGmJRL1ZgabGVzJHF$jIoN6lZqSghFwdrVV3UjZKYD09qX9kh2EW++Hjr8THM=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "sultan",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-03-07T05:46:17.053Z",
+      "groups": [],
+      "user_permissions": []
+   }
+}
+]
