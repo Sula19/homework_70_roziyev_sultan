@@ -1,0 +1,28 @@
+* {
+    font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
+    font-style: italic;
+}
+body {
+    background: #4f4f4f;
+}
+.card {
+    background: #1b1b1b;
+}
+h5 {
+    color: #dddddd;
+}
+h4 {
+    color: #dddddd;
+}
+h1 {
+    color: #dddddd;
+}
+p {
+    color: #dddddd;
+}
+.form-label {
+    color: #dddddd;
+}
+h3 {
+    color: #dddddd;
+}
