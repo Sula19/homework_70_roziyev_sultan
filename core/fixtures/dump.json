@@ -39,8 +39,7 @@
       "created": "2023-03-03T16:58:12.182Z",
       "updated": "2023-03-03T16:58:24.301Z",
       "type": [
-         5,
-         6
+         5
       ]
    }
 },
@@ -153,12 +152,11 @@
    "fields": {
       "summary": "Task-12",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, distinctio!",
-      "status": 9,
+      "status": 8,
       "created": "2023-03-06T20:37:54.174Z",
       "updated": "2023-10-06T20:38:08.234Z",
       "type": [
-         4,
-         5
+         4
       ]
    }
 },
@@ -271,7 +269,7 @@
    "pk": 2,
    "fields": {
       "password": "pbkdf2_sha256$390000$pXXPInGmJRL1ZgabGVzJHF$jIoN6lZqSghFwdrVV3UjZKYD09qX9kh2EW++Hjr8THM=",
-      "last_login": null,
+      "last_login": "2023-03-07T06:00:18.937Z",
       "is_superuser": true,
       "username": "sultan",
       "first_name": "",
