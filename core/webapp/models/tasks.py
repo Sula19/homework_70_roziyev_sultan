@@ -14,6 +14,11 @@ class Tasks(models.Model):
         blank=False,
         verbose_name='Описание'
     )
+    project = models.ForeignKey(
+        to='webapp.Project',
+        related_name='tasks',
+        on_delete=models.PROTECT
+    )
     status = models.ForeignKey(
         to='webapp.Status',
         related_name='status',
