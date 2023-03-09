@@ -2,28 +2,91 @@
     font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
     font-style: italic;
 }
+
 body {
-    background: url("../img/31.jpg") no-repeat fixed center;
+    background: url("../img/170348-tropicheskij_ciklon-ciklon-tajfun-burya-uragan-3840x2160.jpg") no-repeat fixed center;
     background-size: cover;
 }
+
 .card {
-    background: #1b1b1b;
+    background: #dddddd;
 }
+
 h5 {
-    color: #dddddd;
+    color: #444444;
 }
+
 h4 {
-    color: #dddddd;
+    color: #444444;
 }
+
 h1 {
-    color: #dddddd;
+    color: #444444;
 }
+
 p {
-    color: #dddddd;
+    color: #444444;
 }
+
 .form-label {
-    color: #dddddd;
+    color: #444444;
 }
+
 h3 {
-    color: #dddddd;
+    color: #444444;
+}
+
+.form-label {
+    color: #f8f8f8;
+}
+
+h2 {
+    color: #f8f8f8;
+}
+
+.btn-primary {
+    height: 38px;
+    margin-top: -54px;
+    margin-left: -87px;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination a, .pagination .page-disabled {
+    display: inline-block;
+    border: solid 1px #6a7ddd;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 3px;
+}
+
+.pagination a {
+    background: #3875d7;
+    color: white;
+    text-decoration: none;
+}
+
+.pagination a:hover {
+    background: #3875d7;
+    text-decoration: underline;
+}
+
+.pagination .page-disabled {
+    background: #3875d7;
+    color: #f8f8f8;
+}
+
+.pagination .current-page {
+    display: inline-block;
+}
+
+.pagination .current-page input {
+    width: 50px;
+    padding: 5px 7px;
+    font-size: inherit;
+    border-radius: 5px;
+    text-align: center;
+    border: solid 1px gray;
 }
