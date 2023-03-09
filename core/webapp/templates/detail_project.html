@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %}Detail Project{% endblock %}
+{% block menu %}
+    <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="{% url 'create_task' project.pk  %}">
+            <button type="button" class="btn btn-light">Add Task</button>
+        </a>
+    </li>
+{% endblock %}
+{% block content %}
+    <h2>{{ project.name }}</h2>
+    <h2>{{ project.description }}</h2><br>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        {% for task in project.tasks.all     %}
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ task.summary }}</h5>
+                        <p class="card-text">{{ task.description }}</p>
+                        <a href="{% url 'detail_task' task.pk %}" class="btn btn-light">More</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
