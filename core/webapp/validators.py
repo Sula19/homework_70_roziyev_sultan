@@ -1,7 +1,7 @@
 from django.core.validators import BaseValidator
 
 
-class CustomSummaryValidator(BaseValidator):
+class CustomTitleValidator(BaseValidator):
     def __init__(self, limit_value=10):
         message = 'Max length %(limit_value)s'
         super().__init__(limit_value=limit_value, message=message)
