@@ -37,7 +37,7 @@ class IndexViews(ListView):
     template_name = 'index_tasks.html'
     context_object_name = 'tasks'
     model = Tasks
-    paginate_by = 5
+    paginate_by = 10
     paginate_orphans = 1
 
     def get(self, request, *args, **kwargs):
