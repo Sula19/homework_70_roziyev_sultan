@@ -1,1 +1,3 @@
-Пароль от админки: username - sultan, password - root
+Пароль от админки:
+username - sultan
+password - root
