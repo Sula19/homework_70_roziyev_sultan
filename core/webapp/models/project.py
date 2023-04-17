@@ -23,14 +23,6 @@ class Project(models.Model):
         blank=False,
         verbose_name='Описание'
     )
-    is_deleted = models.BooleanField(
-        verbose_name='Удалено',
-        null=False,
-        default=False)
-
-    def delete(self, using=None, keep_parents=False):
-        self.is_deleted = True
-        self.save()
 
     def __str__(self):
         return f'{self.name} - {self.description}'
