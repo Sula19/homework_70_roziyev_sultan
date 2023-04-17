@@ -17,12 +17,12 @@ class Tasks(models.Model):
     project = models.ForeignKey(
         to='webapp.Project',
         related_name='tasks',
-        on_delete=models.PROTECT
+        on_delete=models.CASCADE
     )
     status = models.ForeignKey(
         to='webapp.Status',
         related_name='status',
-        on_delete=models.PROTECT
+        on_delete=models.CASCADE
     )
     type = models.ManyToManyField(
         to='webapp.Type',
