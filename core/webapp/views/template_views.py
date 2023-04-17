@@ -28,9 +28,7 @@ class DetailProject(DetailView):
 class IndexProjects(ListView):
     template_name = 'home.html'
     context_object_name = 'projects'
-
-    def get_queryset(self):
-        return Project.objects.exclude(is_deleted=True)
+    model = Project
 
 
 class IndexViews(ListView):
