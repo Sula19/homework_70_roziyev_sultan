@@ -4,8 +4,7 @@
 }
 
 body {
-    background: url("../img/170348-tropicheskij_ciklon-ciklon-tajfun-burya-uragan-3840x2160.jpg") no-repeat fixed center;
-    background-size: cover;
+    background: black;
 }
 
 .card {
@@ -13,27 +12,27 @@ body {
 }
 
 h5 {
-    color: #444444;
+    color: black;
 }
 
 h4 {
-    color: #444444;
+    color: #dddddd;
 }
 
 h1 {
-    color: #444444;
+    color: #dddddd;
 }
 
 p {
-    color: #444444;
+    color: black;
 }
 
 .form-label {
-    color: #444444;
+    color: #dddddd;
 }
 
 h3 {
-    color: #444444;
+    color: #dddddd;
 }
 
 .form-label {
