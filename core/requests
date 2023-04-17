@@ -1,3 +1,0 @@
-1 - Tasks.objects.filter(Q(status=9) & Q(updated__gte=datetime.now() - timedelta(days=31)))
-2 - Tasks.objects.filter(Q(status=7) | Q(status=8) | Q(type=4) | Q(type=6)).distinct()
-3 - Tasks.objects.filter(type=5).exclude(status=9)
